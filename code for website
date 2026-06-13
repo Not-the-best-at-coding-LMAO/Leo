@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Tech Deals</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#232f3e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff9900;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Best Tech Deals</h1>
+    <p>Find the best gadgets and accessories</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Product">
+    <h2>Gaming Headset</h2>
+    <p>Great sound and comfort for gamers.</p>
+    <a href="YOUR_AFFILIATE_LINK" class="btn">View on Amazon</a>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Product">
+    <h2>Mechanical Keyboard</h2>
+    <p>RGB keyboard with responsive switches.</p>
+    <a href="YOUR_AFFILIATE_LINK" class="btn">View on Amazon</a>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Product">
+    <h2>Gaming Mouse</h2>
+    <p>High precision sensor and RGB lighting.</p>
+    <a href="YOUR_AFFILIATE_LINK" class="btn">View on Amazon</a>
+</div>
+
+</section>
+
+</body>
+</html>
